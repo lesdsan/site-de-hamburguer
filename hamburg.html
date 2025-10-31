@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css" >    
+    
+    <title>Letícia Sant</title>
+</head>
+<body>
+    <header>
+        <a href="/">
+            <img src="hamb.png">
+        </a>
+        <a href="javascript:mostraMenu();">
+            <img src="bug.png">
+        </a>
+
+        <nav id="menu" class="esconder">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Lanches</a></li>
+                <li><a href="">Bebidas</a></li>
+                <li><a href="">Combos</a></li>
+            </ul>        
+        </nav>
+    
+        <script>
+            function mostraMenu() {
+                const menu = document.getElementById('menu');
+                menu.classlist.toggle('ativa');
+                }
+        </script>
+
+
+    </header>
+</body>
+</html>
